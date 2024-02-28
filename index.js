@@ -19,7 +19,7 @@ client.on('ready', async () => {
     .setName('##')
     .setDetails('᲼᲼')
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('')
+    .setAssetsLargeImage('https://i1.sndcdn.com/artworks-HM0l2uGFCDCyO7Eh-NGAVkw-t200x200.jpg')
     .setAssetsLargeText('᲼᲼') // Text displayed when hovering over the large image.
     .setAssetsSmallImage('')
     .setAssetsSmallText('᲼᲼') // Text displayed when hovering over the small image.
