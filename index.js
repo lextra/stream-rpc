@@ -27,7 +27,7 @@ client.on('ready', async () => {
     .addButton('᲼᲼', 'https://bloody.bio/x');
 
   client.user.setActivity(presence);
-  client.user.setPresence({ status: "dnd" }); // dnd, online, offline, idle
+  client.user.setPresence({ status: "online" }); // dnd, online, offline, idle
 });
 
 client.login(process.env.TOKEN);
