@@ -14,17 +14,17 @@ client.on('ready', async () => {
   const presence = new Discord.RichPresence()
     .setApplicationId('')
     .setType('STREAMING') // STREAMING, LISTENING, PLAYING.
-    .setURL('https://fraud.gay') // Use any link if you don't want it to say "Watch", otherwise put "twitch" or "youtube".
-    .setState('/desperate')
-    .setName('https://fraud.gay')
-    .setDetails('/desperate')
+    .setURL('https://bloody.bio/x') // Use any link if you don't want it to say "Watch", otherwise put "twitch" or "youtube".
+    .setState('##')
+    .setName('##')
+    .setDetails('᲼᲼')
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('')
-    .setAssetsLargeText('/desperate') // Text displayed when hovering over the large image.
+    .setAssetsLargeText('᲼᲼') // Text displayed when hovering over the large image.
     .setAssetsSmallImage('')
     .setAssetsSmallText('᲼᲼') // Text displayed when hovering over the small image.
-    .addButton('/desperate', 'https://fraud.gay')
-    .addButton('loc#0001', 'https://discord.gg/desperate');
+    .addButton('᲼᲼', 'https://bloody.bio/x')
+    .addButton('᲼᲼', 'https://bloody.bio/x');
 
   client.user.setActivity(presence);
   client.user.setPresence({ status: "dnd" }); // dnd, online, offline, idle
