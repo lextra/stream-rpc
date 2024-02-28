@@ -20,11 +20,11 @@ client.on('ready', async () => {
     .setDetails('##')
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://i1.sndcdn.com/artworks-HM0l2uGFCDCyO7Eh-NGAVkw-t200x200.jpg')
-    .setAssetsLargeText('᲼᲼') // Text displayed when hovering over the large image.
-    .setAssetsSmallImage('')
-    .setAssetsSmallText('᲼᲼') // Text displayed when hovering over the small image.
-    .addButton('᲼᲼', 'https://bloody.bio/x')
-    .addButton('᲼᲼', 'https://bloody.bio/x');
+    .setAssetsLargeText('##') // Text displayed when hovering over the large image.
+    .setAssetsSmallImage('https://i1.sndcdn.com/artworks-HM0l2uGFCDCyO7Eh-NGAVkw-t200x200.jpg')
+    .setAssetsSmallText('##') // Text displayed when hovering over the small image.
+    .addButton('##', 'https://bloody.bio/x')
+    .addButton('##', 'https://bloody.bio/x');
 
   client.user.setActivity(presence);
   client.user.setPresence({ status: "online" }); // dnd, online, offline, idle
