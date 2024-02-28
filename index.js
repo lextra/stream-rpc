@@ -17,7 +17,7 @@ client.on('ready', async () => {
     .setURL('https://bloody.bio/x') // Use any link if you don't want it to say "Watch", otherwise put "twitch" or "youtube".
     .setState('##')
     .setName('##')
-    .setDetails('᲼᲼')
+    .setDetails('##')
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://i1.sndcdn.com/artworks-HM0l2uGFCDCyO7Eh-NGAVkw-t200x200.jpg')
     .setAssetsLargeText('᲼᲼') // Text displayed when hovering over the large image.
